@@ -31,7 +31,7 @@ user_pref("network.trr.uri", "https://doh.mullvad.net/dns-query");
 user_pref("places.history.enabled", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.history.custom", true);
-user_pref("privacy.sanitize.sanitizeOnShutdown", true); // Used to delete cookies and site data when Firefox is closed… set to `false` to enable cookie and site data persistence
+user_pref("privacy.sanitize.sanitizeOnShutdown", false); // Used to delete cookies and site data when Firefox is closed… set to `false` to enable cookie and site data persistence
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("signon.management.page.breach-alerts.enabled", false);
